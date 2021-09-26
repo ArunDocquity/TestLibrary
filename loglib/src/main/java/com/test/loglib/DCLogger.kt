@@ -2,7 +2,7 @@ package com.test.loglib
 
 import android.util.Log
 
-object DCLogger {
+open object DCLogger {
 
     val TAG = DCLogger.javaClass.name
 
