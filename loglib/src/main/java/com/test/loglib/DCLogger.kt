@@ -2,9 +2,9 @@ package com.test.loglib
 
 import android.util.Log
 
-object Logger {
+object DCLogger {
 
-    val TAG = Logger.javaClass.name
+    val TAG = DCLogger.javaClass.name
 
     fun logError(msg:String){
         Log.e(TAG+"-error:",msg)
