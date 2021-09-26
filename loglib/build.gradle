@@ -46,7 +46,7 @@ afterEvaluate {
     publishing{
         publications{
             release(MavenPublication){
-                from components.release
+                from components.debug
                 groupId = 'com.test'
                 artifactId = 'loglib'
                 version = '1.0.0'
